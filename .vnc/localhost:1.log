@@ -1,0 +1,1117 @@
+
+Xvnc TigerVNC 1.16.0 - built Feb  2 2026 15:30:49
+Copyright (C) 1999-2026 TigerVNC team and many others (see README.rst)
+See https://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12101016
+
+Built without GBM support
+Failed to initialize DRI3 extension
+Sync Extension 3.1
+
+Mon Mar 30 16:40:18 2026
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on all interface(s), port 5901
+ vncext:      Created VNC server for screen 0
+[dix] Could not init font path element /data/data/com.termux/files/usr/share/fonts/misc/, removing from list!
+[dix] Could not init font path element /data/data/com.termux/files/usr/share/fonts/TTF/, removing from list!
+[dix] Could not init font path element /data/data/com.termux/files/usr/share/fonts/OTF/, removing from list!
+[dix] Could not init font path element /data/data/com.termux/files/usr/share/fonts/Type1/, removing from list!
+[dix] Could not init font path element /data/data/com.termux/files/usr/share/fonts/100dpi/, removing from list!
+[dix] Could not init font path element /data/data/com.termux/files/usr/share/fonts/75dpi/, removing from list!
+Popen: `"/data/data/com.termux/files/usr/bin/xkbcomp" -w 1 "-R/data/data/com.termux/files/usr/share/X11/xkb" -xkm "-" -em1 "The XKEYBOARD keymap compiler (xkbcomp) reports:" -emp "> " -eml "Errors from xkbcomp are not fatal to the X server" "/data/data/com.termux/files/usr/tmp/server-1.xkm"', fp = 0xb400007cf9a31888
+Pclose: fp = 0xb400007cf9a31888
+The XKEYBOARD keymap compiler (xkbcomp) reports:
+> Warning:          Multiple symbols for level 1/group 1 on key <FK23>
+>                   Using F23, ignoring XF86TouchpadOff
+> Warning:          Symbol map for key <FK23> redefined
+>                   Using last definition for conflicting fields
+> Warning:          Symbol map for key <FK24> redefined
+>                   Using last definition for conflicting fields
+Errors from xkbcomp are not fatal to the X server
+Loaded XKB keymap /data/data/com.termux/files/usr/tmp/server-1.xkm, defined=0x7f
+client(0): Reserved pid(31674).
+client(0): Reserved cmdname(/data/data/com.termux/files/usr/bin/Xvnc) and cmdargs(:1 -auth /data/data/com.termux/files/home/.Xauthority -depth 24 -desktop localhost:1 () -geometry 1280x720 -rfbauth /data/data/com.termux/files/home/.vnc/passwd -rfbport 5901).
+[mi] mieq: warning: overriding existing handler 0x0 with 0x58ccbe8de4 for event 2
+[mi] mieq: warning: overriding existing handler 0x0 with 0x58ccbe8de4 for event 3
+/data/data/com.termux/files/home/.vnc/xstartup: 8: aterm: not found
+/data/data/com.termux/files/home/.vnc/xstartup: 12: twm: not found
+client(200000): Reserved pid(31679).
+client(200000): Reserved cmdname(dbus-launch) and cmdargs(--exit-with-session mate-session).
+AllocNewConnection: client index = 1, socket fd = 8, local = 1
+client(400000): Reserved pid(31684).
+client(400000): Reserved cmdname(dbus-launch) and cmdargs(--exit-with-session mate-session).
+AllocNewConnection: client index = 2, socket fd = 9, local = 1
+client(600000): Reserved pid(31679).
+client(600000): Reserved cmdname(mate-session) and cmdargs(NULL).
+AllocNewConnection: client index = 3, socket fd = 10, local = 1
+client(800000): Reserved pid(31698).
+client(800000): Reserved cmdname(/data/data/com.termux/files/usr/libexec/mate-session-check-accelerated) and cmdargs(NULL).
+AllocNewConnection: client index = 4, socket fd = 12, local = 1
+client(800000): Released pid(31698).
+client(800000): Released cmdline(/data/data/com.termux/files/usr/libexec/mate-session-check-accelerated) and cmdargs(NULL).
+GNOME_KEYRING_CONTROL=/data/data/com.termux/files/home/.cache/keyring-NO74M3
+client(800000): Reserved pid(31714).
+client(800000): Reserved cmdname(/data/data/com.termux/files/usr/libexec/mate-settings-daemon) and cmdargs(NULL).
+AllocNewConnection: client index = 4, socket fd = 12, local = 1
+client(a00000): Reserved pid(31714).
+client(a00000): Reserved cmdname(/data/data/com.termux/files/usr/libexec/mate-settings-daemon) and cmdargs(NULL).
+AllocNewConnection: client index = 5, socket fd = 13, local = 1
+client(a00000): Released pid(31714).
+client(a00000): Released cmdline(/data/data/com.termux/files/usr/libexec/mate-settings-daemon) and cmdargs(NULL).
+client(a00000): Reserved pid(31728).
+client(a00000): Reserved cmdname(marco) and cmdargs(NULL).
+AllocNewConnection: client index = 5, socket fd = 13, local = 1
+
+(mate-settings-daemon:31714): libmatemixer-WARNING **: 16:40:22.907: Failed to load backend module /data/data/com.termux/files/usr/lib/libmatemixer/libmatemixer-pulse.so: dlopen failed: library "libpulse-mainloop-glib.so" not found: needed by /data/data/com.termux/files/usr/lib/libmatemixer/libmatemixer-pulse.so in namespace (default)
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+
+** (mate-settings-daemon:31714): WARNING **: 16:40:22.970: Could not open RFKILL control device, please verify your installation
+
+** (mate-settings-daemon:31714): WARNING **: 16:40:22.970: system bus not available: Could not connect: No such file or directory
+
+** (mate-settings-daemon:31714): WARNING **: 16:40:22.978: Failed to acquire NetworkManager proxy: Could not connect: No such file or directory
+
+** (mate-settings-daemon:31714): WARNING **: 16:40:22.978: Failed to acquire ModemManager proxy: Could not connect: No such file or directory
+client(c00000): Reserved pid(31740).
+client(c00000): Reserved cmdname(xrdb) and cmdargs(-merge -quiet).
+AllocNewConnection: client index = 6, socket fd = 14, local = 1
+client(c00000): Released pid(31740).
+client(c00000): Released cmdline(xrdb) and cmdargs(-merge -quiet).
+Window manager warning: Log level 128: unsetenv() is not thread-safe and should not be used after threads are created
+client(c00000): Reserved pid(31741).
+client(c00000): Reserved cmdname(mate-panel) and cmdargs(NULL).
+AllocNewConnection: client index = 6, socket fd = 14, local = 1
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+client(e00000): Reserved pid(31771).
+client(e00000): Reserved cmdname(/data/data/com.termux/files/usr/bin/caja) and cmdargs(NULL).
+AllocNewConnection: client index = 7, socket fd = 16, local = 1
+client(1000000): Reserved pid(31807).
+client(1000000): Reserved cmdname(/data/data/com.termux/files/usr/libexec/wnck-applet) and cmdargs(NULL).
+AllocNewConnection: client index = 8, socket fd = 18, local = 1
+GNOME_KEYRING_CONTROL=/data/data/com.termux/files/home/.cache/keyring-NO74M3
+
+(caja:31771): Gtk-WARNING **: 16:40:24.411: Failed to register client: GDBus.Error:org.gnome.SessionManager.AlreadyRegistered: Unable to register client
+GNOME_KEYRING_CONTROL=/data/data/com.termux/files/home/.cache/keyring-NO74M3
+client(1200000): Reserved pid(31818).
+client(1200000): Reserved cmdname(/data/data/com.termux/files/usr/libexec/mate-notification-daemon) and cmdargs(NULL).
+AllocNewConnection: client index = 9, socket fd = 19, local = 1
+client(1400000): Reserved pid(31849).
+client(1400000): Reserved cmdname(/data/data/com.termux/files/usr/libexec/notification-area-applet) and cmdargs(NULL).
+AllocNewConnection: client index = 10, socket fd = 20, local = 1
+client(1600000): Reserved pid(31846).
+client(1600000): Reserved cmdname(/data/data/com.termux/files/usr/libexec/clock-applet) and cmdargs(NULL).
+AllocNewConnection: client index = 11, socket fd = 21, local = 1
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+
+(caja:31771): GLib-GObject-CRITICAL **: 16:40:25.372: ../src/gobject/gsignal.c:2461: signal 'middle_click' is invalid for instance '0xb400007553b55b80' of type 'FMDesktopIconView'
+client(1800000): Reserved pid(31771).
+client(1800000): Reserved cmdname(/data/data/com.termux/files/usr/bin/caja) and cmdargs(NULL).
+AllocNewConnection: client index = 12, socket fd = 22, local = 1
+client(1a00000): Reserved pid(31771).
+client(1a00000): Reserved cmdname(/data/data/com.termux/files/usr/bin/caja) and cmdargs(NULL).
+AllocNewConnection: client index = 13, socket fd = 22, local = 1
+client(1800000): Released pid(31771).
+client(1800000): Released cmdline(/data/data/com.termux/files/usr/bin/caja) and cmdargs(NULL).
+client(1800000): Reserved pid(31771).
+client(1800000): Reserved cmdname(/data/data/com.termux/files/usr/bin/caja) and cmdargs(NULL).
+AllocNewConnection: client index = 12, socket fd = 22, local = 1
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+client(1a00000): Released pid(31771).
+client(1a00000): Released cmdline(/data/data/com.termux/files/usr/bin/caja) and cmdargs(NULL).
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+
+Mon Mar 30 16:41:29 2026
+ Connections: Accepted: 127.0.0.1::52946
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+
+Mon Mar 30 16:41:47 2026
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ VNCSConnST:  Client pixel format depth 6 (8bpp) rgb222
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+
+Mon Mar 30 16:48:06 2026
+ VNCSConnST:  Closing 127.0.0.1::52946: Clean disconnection
+ EncodeManager: Framebuffer updates: 3
+ EncodeManager:   RRE:
+ EncodeManager:     Solid: 11 rects, 480 kpixels
+ EncodeManager:            187 B (1:2567.55 ratio)
+ EncodeManager:   ZRLE:
+ EncodeManager:     Indexed RLE: 9 rects, 458.4 kpixels
+ EncodeManager:                  4.38477 KiB (1:102.118 ratio)
+ EncodeManager:   Total: 20 rects, 938.4 kpixels
+ EncodeManager:          4.56738 KiB (1:200.693 ratio)
+ Connections: Closed: 127.0.0.1::52946
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+
+(caja:31771): GLib-GIO-CRITICAL **: 16:48:07.979: GFileInfo created without standard::edit-name
+
+(caja:31771): GLib-GIO-CRITICAL **: 16:48:07.979: file ../src/gio/gfileinfo.c: line 1762 (g_file_info_get_edit_name): should not be reached
+
+(caja:31771): GLib-GIO-CRITICAL **: 16:48:07.980: GFileInfo created without standard::is-symlink
+
+(caja:31771): GLib-GIO-CRITICAL **: 16:48:07.980: file ../src/gio/gfileinfo.c: line 1696 (g_file_info_get_is_symlink): should not be reached
+
+(caja:31771): GLib-GIO-CRITICAL **: 16:48:07.980: GFileInfo created without standard::is-hidden
+
+(caja:31771): GLib-GIO-CRITICAL **: 16:48:07.980: file ../src/gio/gfileinfo.c: line 1647 (g_file_info_get_is_hidden): should not be reached
+
+(caja:31771): GLib-GIO-CRITICAL **: 16:48:07.981: GFileInfo created without standard::is-backup
+
+(caja:31771): GLib-GIO-CRITICAL **: 16:48:07.981: file ../src/gio/gfileinfo.c: line 1674 (g_file_info_get_is_backup): should not be reached
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+
+(caja:31771): GLib-GIO-CRITICAL **: 16:55:59.770: GFileInfo created without standard::edit-name
+
+(caja:31771): GLib-GIO-CRITICAL **: 16:55:59.770: file ../src/gio/gfileinfo.c: line 1762 (g_file_info_get_edit_name): should not be reached
+
+(caja:31771): GLib-GIO-CRITICAL **: 16:55:59.771: GFileInfo created without standard::is-symlink
+
+(caja:31771): GLib-GIO-CRITICAL **: 16:55:59.771: file ../src/gio/gfileinfo.c: line 1696 (g_file_info_get_is_symlink): should not be reached
+
+(caja:31771): GLib-GIO-CRITICAL **: 16:55:59.771: GFileInfo created without standard::is-hidden
+
+(caja:31771): GLib-GIO-CRITICAL **: 16:55:59.771: file ../src/gio/gfileinfo.c: line 1647 (g_file_info_get_is_hidden): should not be reached
+
+(caja:31771): GLib-GIO-CRITICAL **: 16:55:59.772: GFileInfo created without standard::is-backup
+
+(caja:31771): GLib-GIO-CRITICAL **: 16:55:59.772: file ../src/gio/gfileinfo.c: line 1674 (g_file_info_get_is_backup): should not be reached
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+
+(caja:31771): GVFS-WARNING **: 16:56:04.134: Error: Error calling StartServiceByName for org.gtk.vfs.Metadata: Process org.gtk.vfs.Metadata exited with status 1
+
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:855:(parse_card) [error.core] cannot find card '0'
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_card_inum returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:422:(snd_func_concat) [error.core] error evaluating strings
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_concat returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/confmisc.c:1342:(snd_func_refer) [error.core] error evaluating name
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5207:(_snd_config_evaluate) [error.core] function snd_func_refer returned error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/conf.c:5730:(snd_config_expand) [error.core] Evaluate error: No such file or directory
+ALSA lib /home/builder/.termux-build/alsa-lib/src/src/control/control.c:1575:(snd_ctl_open_noupdate) [error.control] Invalid CTL default
